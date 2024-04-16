@@ -59,8 +59,5 @@ namespace Collision
 		collider_list.push_back(collider);
 	}
 
-	void CollisionService::removeCollider(ICollider* collider)
-	{
-		collider_list.erase(std::remove(collider_list.begin(), collider_list.end(), collider), collider_list.end());
-	}
+	
 }
